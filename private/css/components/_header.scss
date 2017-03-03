@@ -1,3 +1,39 @@
 header {
+    height:120px;
+    background-color:white;
+    position:fixed;
+    width:100%;
+
+.logo {
+    float:left;
+    height:80px;
+    width:165px;
+    background-image: url("/images/logo.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin: 20px 0px 0px 15%;
+
+}
+
+.navi-dock {
+    float:right;
+    margin-top:85px;
+    margin-right:20%;
+    list-style-type:none;
     
+    li {
+        float:right;
+        margin: 0 10px;
+        width:100px;
+        text-align:right;
+    
+        a {
+            color: gray;
+            text-align: right;
+            text-decoration: none;
+            font-size:18px;
+        }
+    }
+}
+
 }
